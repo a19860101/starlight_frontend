@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('http://localhost:8000/images/bg.png');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.gradient {
+    background-image: 
+        linear-gradient(to right top,#3B41C5,#A981BB,#FFC8A9)
+    ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cover {
+    @apply w-full h-full object-cover
+}
+.btn {
+    @apply inline-block px-12 py-2 text-zinc-100 rounded-lg
+}
+.btn-primary {
+    @apply bg-primary
+}
+.btn-focus-p {
+    @apply bg-focus-p
+}
