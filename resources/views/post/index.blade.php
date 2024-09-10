@@ -66,7 +66,7 @@
                 <a href="#">最熱銷</a>
                 <a href="#">新上架</a>
             </div>
-            <x-post-card class="w-1/2"></x-post-card>
+            <x-post-card class="w-1/2" url="/post/show"></x-post-card>
             <x-post-card class="w-1/2"></x-post-card>
             <x-post-card class="w-1/2"></x-post-card>
         </div>
