@@ -10,8 +10,8 @@
             <img src="/images/logo.png" alt="" class="w-24">
         </a>
         <ul class="flex space-x-8">
-            <li><a href="#">直播課程</a></li>
-            <li><a href="#">預錄課程</a></li>
+            <li><a href="/streaming">直播課程</a></li>
+            <li><a href="/course">預錄課程</a></li>
             <li><a href="#">線上購物</a></li>
             <li class="space-x-4">
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>

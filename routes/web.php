@@ -28,3 +28,9 @@ Route::get('/teacher/show',function(){
 Route::get('/post',function(){
     return view('post.index');
 });
+Route::get('/streaming',function(){
+    return view('streaming.index');
+});
+Route::get('/course',function(){
+    return view('course.index');
+});
