@@ -20,7 +20,7 @@
                 </ul>
             </div>
         </div>
-        <div class="w-2/3 flex flex-wrap content-start">
+        <div class="w-3/4 flex flex-wrap content-start">
             <div class="w-full text-right py-5 pr-4 space-x-4">
                 {{-- <x-breadcrumb></x-breadcrumb> --}}
                 <a href="#">最熱銷</a>
