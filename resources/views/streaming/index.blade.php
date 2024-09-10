@@ -26,7 +26,7 @@
                 <a href="#">最熱銷</a>
                 <a href="#">新上架</a>
             </div>
-            <x-course-card class="w-1/3"></x-course-card>
+            <x-course-card class="w-1/3" url="streaming/show"></x-course-card>
             <x-course-card class="w-1/3"></x-course-card>
             <x-course-card class="w-1/3"></x-course-card>
             <x-course-card class="w-1/3"></x-course-card>

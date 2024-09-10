@@ -34,6 +34,9 @@ Route::get('/post/show',function(){
 Route::get('/streaming',function(){
     return view('streaming.index');
 });
+Route::get('/streaming/show',function(){
+    return view('streaming.show');
+});
 Route::get('/course',function(){
     return view('course.index');
 });
