@@ -62,9 +62,13 @@
             </div>
         </div>
         <div class="w-2/3 flex flex-wrap content-start">
-            <x-post-card></x-post-card>
-            <x-post-card></x-post-card>
-            <x-post-card></x-post-card>
+            <div class="w-full text-right py-5 pr-4 space-x-4">
+                <a href="#">最熱銷</a>
+                <a href="#">新上架</a>
+            </div>
+            <x-post-card class="w-1/2"></x-post-card>
+            <x-post-card class="w-1/2"></x-post-card>
+            <x-post-card class="w-1/2"></x-post-card>
         </div>
     </div>
 

@@ -9,6 +9,10 @@ export default {
     container: {
       center: true
     },
+    fontFamily: {
+      sans:['Noto Sans TC'],
+      display: ['Praise']
+    },
     extend: {
       // backgroundImage:{
       //   'main': "url('/images/banner.png)"

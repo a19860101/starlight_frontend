@@ -38,5 +38,9 @@
         <div class="w-full">
             <hr>
         </div>
+        <x-post-card class="w-1/4"></x-post-card>
+        <x-post-card class="w-1/4"></x-post-card>
+        <x-post-card class="w-1/4"></x-post-card>
+        <x-post-card class="w-1/4"></x-post-card>
     </div>
 </x-master>
