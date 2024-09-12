@@ -8,27 +8,31 @@
             <form action="">
                 <div class="mb-3">
                     <label for="" class="form-label req">電子郵件地址</label>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control text-zinc-900" required>
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label req">您的姓名</label>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control text-zinc-900" required>
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label req">您的所在地</label>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control text-zinc-900" required>
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label req">請選擇問題類型，並在下方描述中說明您的問題</label>
-                    <input type="text" class="form-control" required>
+                    <select name="" id="" class='form-control text-zinc-900'>
+                        <option value="">--請選擇--</option>
+                        <option value="">客人-帳號問題</option>
+                        <option value="">客人-訂單問題</option>
+                    </select>
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label">訂單編號或帳號（提供完整資料，可以加速處理）</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control text-zinc-900">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label req">請描述你的問題</label>
-                    <textarea name="" id="" class="form-control" cols="30" rows="10" required></textarea>
+                    <textarea name="" id="" class="form-control text-zinc-900" cols="30" rows="10" required></textarea>
                 </div>
                 <div>
                     <input type="submit" value="提交問題" class="btn btn-primary">
