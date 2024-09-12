@@ -1,3 +1,4 @@
+
 <x-master>
     <x-breadcrumb> </x-breadcrumb>
     <div class="container flex flex-wrap *:px-4 *:mb-6 py-6">

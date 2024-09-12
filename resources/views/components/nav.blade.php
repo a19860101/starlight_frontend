@@ -12,7 +12,7 @@
         <ul class="flex space-x-8">
             <li><a href="/streaming">直播課程</a></li>
             <li><a href="/course">預錄課程</a></li>
-            <li><a href="#">線上購物</a></li>
+            <li><a href="/product">線上購物</a></li>
             <li class="space-x-4">
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 <a href="#"><i class="fa-regular fa-circle-user"></i></a>

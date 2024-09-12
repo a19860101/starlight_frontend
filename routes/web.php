@@ -43,3 +43,9 @@ Route::get('/course',function(){
 Route::get('/course/show',function(){
     return view('course.show');
 });
+Route::get('/product',function(){
+    return view('product.index');
+});
+Route::get('/product/show',function(){
+    return view('product.show');
+});
