@@ -3,7 +3,7 @@
     <div class="container flex flex-wrap text-zinc-100 *:px-4">
         <div class="w-2/3 *:mb-6">
             <div>
-                <x-tag>直播</x-tag>
+                <x-tag>預錄</x-tag>
                 <x-tag>心靈成長</x-tag>
             </div>
             <h2 class="text-5xl font-medium">心靈成長之旅：探索內在知會</h2>

@@ -20,10 +20,10 @@ body {
     @apply w-full h-full object-cover
 }
 .btn {
-    @apply inline-block px-12 py-2 text-zinc-100 rounded-lg
+    @apply inline-block px-12 py-2 text-zinc-100 rounded-lg text-center
 }
 .btn-primary {
-    @apply bg-primary
+    @apply bg-primary text-zinc-900
 }
 .btn-focus-p {
     @apply bg-focus-p

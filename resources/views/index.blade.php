@@ -5,8 +5,8 @@
     <section class="py-12">
         <div class="container flex flex-wrap">
             <h2 class="text-4xl font-bold text-center w-full mb-8">文章專區</h2>
-            <x-post-card></x-post-card>
-            <x-post-card></x-post-card>
+            <x-post-card class="w-1/2"></x-post-card>
+            <x-post-card class="w-1/2"></x-post-card>
             <div class="w-full text-center py-8">
                 <a href="#" class="btn btn-primary">More</a>
             </div>

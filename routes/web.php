@@ -40,3 +40,6 @@ Route::get('/streaming/show',function(){
 Route::get('/course',function(){
     return view('course.index');
 });
+Route::get('/course/show',function(){
+    return view('course.show');
+});
