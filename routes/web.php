@@ -49,3 +49,6 @@ Route::get('/product',function(){
 Route::get('/product/show',function(){
     return view('product.show');
 });
+Route::get('/contact',function(){
+    return view('contact');
+});

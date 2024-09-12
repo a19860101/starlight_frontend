@@ -28,3 +28,12 @@ body {
 .btn-focus-p {
     @apply bg-focus-p
 }
+.form-label {
+    @apply text-sm mb-1 block
+}
+.form-control {
+    @apply w-full p-4 rounded bg-zinc-100
+}
+.req {
+    @apply before:content-['*'] before:text-rose-600 before:pr-1
+}

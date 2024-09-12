@@ -4,7 +4,7 @@
             <h3 class="text-xl font-bold mb-3">關於我們</h3>
             <ul class="space-y-3">
                 <li><a href="#">品牌故事</a></li>
-                <li><a href="#">聯絡我們</a></li>
+                <li><a href="/contact">聯絡我們</a></li>
             </ul>
         </div>
         <div class="w-1/5 p-4">
