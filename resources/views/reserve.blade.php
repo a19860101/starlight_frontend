@@ -63,29 +63,13 @@
     </div>
 
 </x-master>
-<template id="my-template">
-    <swal-title>
-        預約資訊已送出
-    </swal-title>
-    <swal-html>
-        感謝您的來信<br>處理案件時間約3~4個工作天，我們會盡快回覆您的問題<br>
-        若超過5個工作天，仍未收到回信，<br>
-        郵件有可能會被電子郵件系統誤認為垃圾郵件，<br>
-        請您至垃圾信件夾檢查，或者再次來信詢問<br>
-        謝謝
-    </swal-html>
-    <swal-button type="confirm" >
-        關閉視窗
-    </swal-button>
-    <swal-icon type="success"></swal-icon>
-
-    {{-- <swal-button type="cancel">
-      關閉視窗
-    </swal-button> --}}
-
-    {{-- <swal-param name="allowEscapeKey" value="true" /> --}}
-
-</template>
+<x-alert title="預約資訊已送出" button="關閉視窗">
+    感謝您的來信<br>處理案件時間約3~4個工作天，我們會盡快回覆您的問題<br>
+    若超過5個工作天，仍未收到回信，<br>
+    郵件有可能會被電子郵件系統誤認為垃圾郵件，<br>
+    請您至垃圾信件夾檢查，或者再次來信詢問<br>
+    謝謝
+</x-alert> 
 <script>
     Swal.fire({
         template:'#my-template'

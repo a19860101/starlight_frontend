@@ -55,3 +55,27 @@ Route::get('/contact',function(){
 Route::get('/reserve',function(){
     return view('reserve');
 });
+Route::get('/login',function(){
+    return view('login');
+});
+Route::get('/login-success',function(){
+    return view('login-success');
+});
+Route::get('/forgot',function(){
+    return view('forgot');
+});
+Route::get('/forgot-2',function(){
+    return view('forgot-2');
+});
+Route::get('/forgot-3',function(){
+    return view('forgot-3');
+});
+Route::get('/forgot-success',function(){
+    return view('forgot-success');
+});
+Route::get('/register',function(){
+    return view('register');
+});
+Route::get('/register-success',function(){
+    return view('register-success');
+});
