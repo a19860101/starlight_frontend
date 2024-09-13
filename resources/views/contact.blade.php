@@ -74,3 +74,15 @@
     </div>
 
 </x-master>
+<x-alert title="提交成功" button="關閉視窗">
+    感謝您的來信<br>
+    處理案件時間約3~4個工作天，我們會盡快回覆您的問題<br>
+    若超過5個工作天，仍未收到回信，<br>
+    郵件有可能會被電子郵件系統誤認為垃圾郵件，請您至垃圾信件夾檢查，或者再次來信詢問<br>
+    謝謝
+</x-alert>
+<script>
+    Swal.fire({
+        template:'#my-template'
+    })
+</script>
