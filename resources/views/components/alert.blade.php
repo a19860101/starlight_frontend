@@ -2,8 +2,9 @@
     'title' => '標題',
     'button' => '按鈕內容',
     'type' => 'success',
+    'id' => 'my-template'
 ])
-<template id="my-template">
+<template id={{$id}}>
     <swal-title>
         {{$title}}
     </swal-title>

@@ -79,3 +79,6 @@ Route::get('/register',function(){
 Route::get('/register-success',function(){
     return view('register-success');
 });
+Route::get('/member',function(){
+    return view('member.index');
+});
