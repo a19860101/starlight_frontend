@@ -3,7 +3,7 @@
         <ul class="flex space-x-8">
             <li><a href="/about">關於網站</a></li>
             <li><a href="/teacher">講師介紹</a></li>
-            <li><a href="#">線上預約</a></li>
+            <li><a href="/reserve">線上預約</a></li>
             <li><a href="/post">文章專區</a></li>
         </ul>
         <a href="/">

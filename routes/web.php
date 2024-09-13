@@ -52,3 +52,6 @@ Route::get('/product/show',function(){
 Route::get('/contact',function(){
     return view('contact');
 });
+Route::get('/reserve',function(){
+    return view('reserve');
+});

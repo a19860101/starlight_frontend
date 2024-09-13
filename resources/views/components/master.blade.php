@@ -15,5 +15,7 @@
     <x-nav></x-nav>
     {{$slot}}
     <x-footer></x-footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>
