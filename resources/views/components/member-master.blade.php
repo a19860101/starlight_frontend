@@ -32,9 +32,9 @@
             <ul class="divide-y-2 *:p-5">
                 <li><a href="#" class="text-xl font-medium text-zinc-500 block mb-4">會員帳號</a>
                     <ul class="pl-2 space-y-2">
-                        <li><a href="#" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">個人資料</a></li>
-                        <li><a href="#" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">訊息中心</a></li>
-                        <li><a href="#" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">變更密碼</a></li>
+                        <li><a href="/member" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">個人資料</a></li>
+                        <li><a href="/member/msg-center" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">訊息中心</a></li>
+                        <li><a href="/member/change-password" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">變更密碼</a></li>
                     </ul>
                 </li>
                 <li><a href="#" class="text-xl font-medium text-zinc-500 block mb-4">課程專區</a>

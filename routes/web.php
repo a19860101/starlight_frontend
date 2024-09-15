@@ -91,3 +91,12 @@ Route::get('/register-success',function(){
 Route::get('/member',function(){
     return view('member.index');
 });
+Route::get('/member/msg-center',function(){
+    return view('member.msg-center');
+});
+Route::get('/member/msg-center/show',function(){
+    return view('member.msg-center-show');
+});
+Route::get('/member/change-password',function(){
+    return view('member.change-password');
+});
