@@ -55,6 +55,15 @@ Route::get('/contact',function(){
 Route::get('/reserve',function(){
     return view('reserve');
 });
+Route::get('/help',function(){
+    return view('help');
+});
+Route::get('/help-role',function(){
+    return view('help-role');
+});
+Route::get('/help/show',function(){
+    return view('help-show');
+});
 Route::get('/login',function(){
     return view('login');
 });

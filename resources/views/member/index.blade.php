@@ -4,7 +4,7 @@
         <h3 class="w-full text-3xl font-medium border-b-2 border-zinc-300 pb-2">個人資料</h3>
     </div>
     <div class="px-4 flex flex-wrap">
-        <div class="xl:w-9/12 sm:w-8/12 w-full pr-8 mb-5">
+        <div class="xl:w-9/12 lg:w-8/12 w-full lg:pr-8 mb-5">
             <form action="" class="space-y-4">
                 <div class="flex items-center">
                     <label for="" class="mr-6 text-zinc-500 lg:w-16 w-12" style="text-align-last: justify">中文姓名</label>
@@ -44,7 +44,7 @@
                 </div>
             </form>
         </div>
-        <div class="xl:w-3/12 sm:w-4/12 w-full">
+        <div class="xl:w-3/12 lg:w-4/12 w-full">
             <div class="border border-amber-500 bg-amber-50 p-8 space-y-6 rounded">
                 <img src="/images/logo.png" alt="" class="w-24 block mx-auto">
                 <div><span class="text-zinc-500 mr-8">會員編號</span>99999999</div>

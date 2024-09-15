@@ -10,7 +10,7 @@
         <div class="w-1/5 p-4">
             <h3 class="text-xl font-bold mb-3">幫助/政策</h3>
             <ul class="space-y-3">
-                <li><a href="#">幫助中心</a></li>
+                <li><a href="/help">幫助中心</a></li>
                 <li><a href="#">使用條款</a></li>
                 <li><a href="#">隱私政策</a></li>
                 <li><a href="#">服務契約</a></li>
