@@ -100,3 +100,6 @@ Route::get('/member/msg-center/show',function(){
 Route::get('/member/change-password',function(){
     return view('member.change-password');
 });
+Route::get('/member/course-list',function(){
+    return view('member.course-list');
+});
