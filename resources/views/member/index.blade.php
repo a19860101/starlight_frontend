@@ -46,7 +46,7 @@
         </div>
         <div class="xl:w-3/12 lg:w-4/12 w-full">
             <div class="border border-amber-500 bg-amber-50 p-8 space-y-6 rounded">
-                <img src="/images/logo.png" alt="" class="w-24 block mx-auto">
+                <img src="/images/logo-v.png" alt="" class="w-24 block mx-auto">
                 <div><span class="text-zinc-500 mr-8">會員編號</span>99999999</div>
                 <div><span class="text-zinc-500 mr-8">入會日期</span>2024年9月21日</div>
                 <div><span class="text-zinc-500 mr-8">會員期限</span>永久有效</div>
