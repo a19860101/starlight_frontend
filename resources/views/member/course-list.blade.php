@@ -39,7 +39,7 @@
                 </div>
                 <div class="p-2">
                     <h4 class="font-medium mb-6">課程標題啊啊啊啊啊啊</h4>
-                    <div class='space-y -2'>
+                    <div class='space-y-2'>
                         <small class="text-zinc-400">課程進度</small>
                         <div class="flex items-center justify-between">
                             <div class="w-full bg-zinc-300 h-2 rounded-full">
