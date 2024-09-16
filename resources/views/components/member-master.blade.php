@@ -27,7 +27,7 @@
             </li>
         </ul>
     </nav>
-    <main class="bg-zinc-100 -mb-16 flex h-screen">
+    <main class="bg-zinc-100 -mb-16 flex">
         <div class="w-60 bg-zinc-100 leading-8 py-5 border-r-2">
             <ul class="divide-y-2 *:p-5">
                 <li><a href="#" class="text-xl font-medium text-zinc-500 block mb-4">會員帳號</a>
@@ -40,7 +40,7 @@
                 <li><a href="#" class="text-xl font-medium text-zinc-500 block mb-4">課程專區</a>
                     <ul class="pl-2 space-y-2">
                         <li><a href="/member/course-list" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">所有預錄課程</a></li>
-                        <li><a href="#" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">所有直撥課程</a></li>
+                        <li><a href="/member/streaming-list" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">所有直撥課程</a></li>
                     </ul>
                 </li>
                 <li><a href="#" class="text-xl font-medium text-zinc-500 block mb-4">商品訂單</a>

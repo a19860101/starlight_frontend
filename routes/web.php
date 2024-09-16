@@ -103,3 +103,12 @@ Route::get('/member/change-password',function(){
 Route::get('/member/course-list',function(){
     return view('member.course-list');
 });
+Route::get('/member/course/show',function(){
+    return view('member.course-show');
+});
+Route::get('/member/streaming-list',function(){
+    return view('member.streaming-list');
+});
+Route::get('/member/streaming/show',function(){
+    return view('member.streaming-show');
+});

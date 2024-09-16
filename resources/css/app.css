@@ -40,3 +40,8 @@ body {
 .req {
     @apply before:content-['*'] before:text-rose-600 before:pr-1
 }
+
+
+.v-active {
+    @apply text-amber-400 border-amber-400
+}

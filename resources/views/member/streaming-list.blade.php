@@ -4,7 +4,7 @@
         <h3 class="w-full text-3xl font-medium border-b-2 border-zinc-300 pb-2">所有預錄課程</h3>
     </div>
     <div class="px-4 grid grid-cols-3 gap-4 pb-60">
-        <x-member-course-card url="/member/course/show"></x-member-course-card>
+        <x-member-course-card url="/member/streaming/show"></x-member-course-card>
         <x-member-course-card></x-member-course-card>
         <x-member-course-card progress="0"></x-member-course-card>
         <x-member-course-card progress="22%"></x-member-course-card>
