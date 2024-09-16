@@ -124,3 +124,9 @@ Route::get('/member/order',function(){
 Route::get('/member/order/show',function(){
     return view('member.order-show');
 });
+Route::get('/carts',function(){
+    return view('carts');
+});
+Route::get('/checkout',function(){
+    return view('checkout');
+});

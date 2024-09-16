@@ -1,5 +1,5 @@
 <x-master>
-    <x-help-header></x-help-header>
+    <x-header-title>幫助中心</x-header-title>
     <main class="bg-white -mb-16 pb-60">
         <x-help-nav></x-help-nav>
         <div class="container flex flex-wrap px-4 py-4">

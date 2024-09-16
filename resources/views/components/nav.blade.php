@@ -14,7 +14,7 @@
             <li><a href="/course">預錄課程</a></li>
             <li><a href="/product">線上購物</a></li>
             <li class="space-x-4">
-                <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/carts"><i class="fa-solid fa-cart-shopping"></i></a>
                 <a href="/login"><i class="fa-regular fa-circle-user"></i></a>
                 <a href="#"><i class="fa-regular fa-bell"></i></a>
             </li>

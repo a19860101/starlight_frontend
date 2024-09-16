@@ -1,6 +1,7 @@
 @props([
     'title' => '標題',
     'button' => '按鈕內容',
+    'cancel' => '',
     'type' => 'success',
     'id' => 'my-template'
 ])
@@ -14,5 +15,10 @@
     <swal-button type="confirm" >
         {{$button}}
     </swal-button>
+    @if($cancel != '')
+    <swal-button type="cancel" >
+        {{$cancel}}
+    </swal-button>
+    @endif
     <swal-icon type={{$type}}></swal-icon>
 </template>

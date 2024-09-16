@@ -62,9 +62,9 @@
     <p>所有項目為必填，請完整填寫所有資料</p>
 </x-alert>
 <script>
-    // Swal.fire({
-    //     template: '#success'
-    // })
+    Swal.fire({
+        template: '#success'
+    })
     // Swal.fire({
     //     template: '#error'
     // })
