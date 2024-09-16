@@ -118,3 +118,9 @@ Route::get('/member/coupon',function(){
 Route::get('/member/coupon/show',function(){
     return view('member.coupon-show');
 });
+Route::get('/member/order',function(){
+    return view('member.order');
+});
+Route::get('/member/order/show',function(){
+    return view('member.order-show');
+});

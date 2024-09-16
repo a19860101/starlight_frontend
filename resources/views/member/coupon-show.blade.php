@@ -1,7 +1,7 @@
 <x-member-master>
     <x-member-breadcrumb></x-member-breadcrumb>
     <div class="px-4 flex mb-5 w-full">
-        <h3 class="w-full text-2xl font-medium border-b-2 border-zinc-300 pb-2"><a href="#">返回我的優惠券</a></h3>
+        <h3 class="w-full text-2xl font-medium border-b-2 border-zinc-300 pb-2"><i class="fa-solid fa-arrow-left"></i><a href="/member/coupon">返回我的優惠券</a></h3>
     </div>
     <div class="px-4 pb-60">
         <h3>感謝</h3>
