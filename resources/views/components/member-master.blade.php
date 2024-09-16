@@ -45,7 +45,7 @@
                 </li>
                 <li><a href="#" class="text-xl font-medium text-zinc-500 block mb-4">商品訂單</a>
                     <ul class="pl-2 space-y-2">
-                        <li><a href="#" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">我的優惠券</a></li>
+                        <li><a href="/member/coupon" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">我的優惠券</a></li>
                         <li><a href="#" class="hover:text-amber-600 duration-300 block hover:bg-zinc-300 pl-2 rounded">訂單記錄</a></li>
                     </ul>
                 </li>

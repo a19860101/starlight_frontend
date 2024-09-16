@@ -112,3 +112,9 @@ Route::get('/member/streaming-list',function(){
 Route::get('/member/streaming/show',function(){
     return view('member.streaming-show');
 });
+Route::get('/member/coupon',function(){
+    return view('member.coupon');
+});
+Route::get('/member/coupon/show',function(){
+    return view('member.coupon-show');
+});
