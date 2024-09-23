@@ -57,7 +57,7 @@
                 </div>
                 <div class="w-full my-6">
                     <hr>
-                </div>                
+                </div>
                 <div class="space-y-6" id="notice">
                     <h3 class="text-2xl font-medium">注意事項</h3>
                     <p class="leading-8">
@@ -84,7 +84,7 @@
                 <div class="pt-4">
                     <div class="py-3">
                         <span class="font-bold text-xl">
-                            NT$1,000 
+                            NT$1,000
                         </span>
                         <small class="text-zinc-400 ml-4 line-through">NT$1,500</small>
                     </div>
@@ -113,59 +113,16 @@
             </div>
             <div class="bg-zinc-100 p-4 rounded space-y-4 mb-8">
                 <h4 class="font-bold text-2xl">加購組合</h4>
-                <div class="flex items-center border-amber-400 border p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="text-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center  p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="font-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
+                <x-combine class=" border-amber-400"></x-combine>
+                <x-combine></x-combine>
+
                 <a href="#" class="btn btn-primary w-full text-zinc-900">加入購物車</a>
 
             </div>
             <div class="bg-zinc-100 p-4 rounded space-y-4 mb-8">
                 <h4 class="font-bold text-2xl">加購組合</h4>
-                <div class="flex items-center border-amber-400 border p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="font-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center  p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="font-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
+                <x-combine class=" border-amber-400"></x-combine>
+                <x-combine></x-combine>
                 <a href="#" class="btn btn-primary w-full text-zinc-900">加入購物車</a>
 
             </div>
