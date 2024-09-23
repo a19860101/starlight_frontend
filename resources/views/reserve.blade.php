@@ -21,13 +21,13 @@
                     如果您有任何疑問或需要進一步的幫助，請隨時與我們聯繫。我們期待為您提供優質的服務，祝您預約愉快！
                 </div>
                 <div class="text-center"><a href="" class="btn btn-primary">立即預約</a></div>
-                
+
             </div>
         </div>
     </header>
     <div class="container flex flex-wrap py-8">
         <h2 class="text-4xl font-medium text-center w-full mb-8">填寫預約資訊</h2>
-        <div class="w-1/2 text-zinc-100 pr-8">
+        <div class="w-1/2 text-zinc-100 pr-8 pl-4">
             <p>請選擇欲預約的日期及時間</p>
             <p>並填寫完整預約資訊預約成功，您將會收到電子郵件通知</p>
             <p>預約時間後的簡易流程：</p>
@@ -69,7 +69,7 @@
     郵件有可能會被電子郵件系統誤認為垃圾郵件，<br>
     請您至垃圾信件夾檢查，或者再次來信詢問<br>
     謝謝
-</x-alert> 
+</x-alert>
 <script>
     Swal.fire({
         template:'#my-template'
