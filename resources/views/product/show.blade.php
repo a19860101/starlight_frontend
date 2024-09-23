@@ -5,21 +5,33 @@
             <div>
                 <x-tag>預錄</x-tag>
                 <x-tag>心靈成長</x-tag>
-            </div> 
+            </div>
             <h2 class="text-5xl font-medium">心靈成長之旅：探索內在知會</h2>
             <div class="flex items-center">
                 <img src="https://picsum.photos/id/45/60" alt="" class="rounded-full border-4 border-zinc-100 mr-5">
                 <b class="mr-3">講師</b>
                 <span>愛麗絲。李（Alice Lee）</span>
             </div>
-            <div class="flex">
-                <div class="w-3/4 p-2">
-                    <img src="https://picsum.photos/id/213/500/" alt="" class="p_main cover">
+            <div class="grid grid-cols-4 gap-x-3">
+                <div class="col-span-3 splide" id="product-main">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="https://picsum.photos/id/213/600/" alt="" class="p_main cover"></li>
+                            <li class="splide__slide"><img src="https://picsum.photos/id/63/600" alt="" class="p_main cover"></li>
+                            <li class="splide__slide"><img src="https://picsum.photos/id/73/600" alt="" class="p_main cover"></li>
+                            <li class="splide__slide"><img src="https://picsum.photos/id/13/600" alt="" class="p_main cover"></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="w-1/4 p-2 flex flex-col justify-between">
-                    <img src="https://picsum.photos/id/213/500" alt="" class="p_thumb">
-                    <img src="https://picsum.photos/id/63/500" alt="" class="p_thumb">
-                    <img src="https://picsum.photos/id/73/500" alt="" class="p_thumb">
+                <div class="grid gap-y-3 splide" id="product-nav">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="https://picsum.photos/id/213/600/" alt="" class="p_thumb block"></li>
+                            <li class="splide__slide"><img src="https://picsum.photos/id/63/600" alt="" class="p_thumb block"></li>
+                            <li class="splide__slide"><img src="https://picsum.photos/id/73/600" alt="" class="p_thumb block"></li>
+                            <li class="splide__slide"><img src="https://picsum.photos/id/13/600" alt="" class="p_thumb block"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="grid grid-cols-3 divide-x divide-zinc-500 text-center bg-zinc-100 text-zinc-800 py-4">
@@ -64,7 +76,7 @@
                 </div>
                 <div class="w-full my-6">
                     <hr>
-                </div>                
+                </div>
                 <div class="space-y-6" id="notice">
                     <h3 class="text-2xl font-medium">商品規格</h3>
                     <p class="leading-8">
@@ -91,7 +103,7 @@
                 <div class="pt-4">
                     <div class="py-3">
                         <span class="font-bold text-xl">
-                            NT$1,000 
+                            NT$1,000
                         </span>
                         <small class="text-zinc-400 ml-4 line-through">NT$1,500</small>
                     </div>
@@ -120,59 +132,15 @@
             </div>
             <div class="bg-zinc-100 p-4 rounded space-y-4 mb-8">
                 <h4 class="font-bold text-2xl">加購組合</h4>
-                <div class="flex items-center border-amber-400 border p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="text-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center  p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="font-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
+                <x-combine class='border-amber-400'></x-combine>
+                <x-combine></x-combine>
                 <a href="#" class="btn btn-primary w-full text-zinc-900">加入購物車</a>
 
             </div>
             <div class="bg-zinc-100 p-4 rounded space-y-4 mb-8">
                 <h4 class="font-bold text-2xl">加購組合</h4>
-                <div class="flex items-center border-amber-400 border p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="font-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center  p-2">
-                    <div class="w-1/3 pr-3">
-                        <img src="https://picsum.photos/id/33/199" alt="" class="rounded">
-                    </div>
-                    <div class="w-2/3">
-                        <h5 class="font-medium">名稱</h5>
-                        <small class="text-zinc-400 line-through">NT$1,500</small>
-                        <div class="text-amber-500">
-                            加購價 NT$,1000
-                        </div>
-                    </div>
-                </div>
+                <x-combine class='border-amber-400'></x-combine>
+                <x-combine></x-combine>
                 <a href="#" class="btn btn-primary w-full text-zinc-900">加入購物車</a>
 
             </div>
@@ -252,14 +220,45 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide-core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css">
     <script>
-        let pmain = document.querySelector('.p_main');
-        let pthumbs = document.querySelectorAll('.p_thumb');
-        for(pt of pthumbs){
-            pt.onclick = e => {
-                let src = e.target.getAttribute('src');
-                pmain.setAttribute('src',src);
-            }
-        }
+        // let pmain = document.querySelector('.p_main');
+        // let pthumbs = document.querySelectorAll('.p_thumb');
+        // for(pt of pthumbs){
+        //     pt.onclick = e => {
+        //         let src = e.target.getAttribute('src');
+        //         pmain.setAttribute('src',src);
+        //     }
+        // }
+
+        var splide = new Splide( '#product-nav',{
+            gap:8,
+            perPage:3,
+            perMove:1,
+            // height: '500px',
+            // autoWidth:true,
+            autoHeight:true,
+            heightRatio:3.1,
+            direction:'ttb',
+            arrows: false,
+            pagination: false,
+            rewind: true,
+            // focus: 'center',
+            isNavigation: true
+        } );
+
+
+        var main = new Splide( '#product-main', {
+            type      : 'fade',
+            rewind    : true,
+            pagination: false,
+            arrows    : true,
+        } );
+        main.sync(splide);
+        splide.mount();
+        main.mount();
     </script>
 </x-master>
+
