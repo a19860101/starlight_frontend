@@ -1,6 +1,8 @@
 <x-master>
     <header class="h-[600px]">
         <img src="/images/banner.png" alt="" class="cover">
+        <img src="/images/banner.png" alt="" class="cover">
+        <img src="/images/banner.png" alt="" class="cover">
     </header>
     <section class="py-12">
         <div class="container flex flex-wrap">
@@ -50,7 +52,7 @@
                         'img' => 'https://picsum.photos/id/30/800/600',
                         'url' => '#'
                     ],
-                ]   
+                ]
             @endphp
             @foreach($datas as $data)
             <x-course-card
@@ -63,7 +65,7 @@
                 :url="$data['url']"
             ></x-course-card>
             @endforeach
-            
+
             <div class="w-full text-center py-8">
                 <a href="#" class="btn btn-focus-p">More</a>
             </div>
@@ -74,7 +76,7 @@
         <div class="container flex flex-wrap">
             <h2 class="text-4xl font-bold text-center w-full mb-8">預錄課程</h2>
             @foreach($datas as $data)
-            <x-course-card 
+            <x-course-card
                 class="w-1/4 p-4"
                 badge="預錄"
                 :tag="$data['tag']"
@@ -139,10 +141,21 @@
                 :p_url="$p['p_url']"
             ></x-product-card>
             @endforeach
-            
+
             <div class="w-full text-center py-8">
                 <a href="#" class="btn btn-primary">More</a>
             </div>
         </div>
     </section>
+
 </x-master>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+<script>
+    $(function(){
+        $('header').slick({
+            autoplay: true
+        });
+    })
+</script>
