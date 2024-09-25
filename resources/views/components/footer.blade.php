@@ -19,7 +19,7 @@
         <div class="w-1/5 p-4">
             <h3 class="text-xl font-bold mb-3">講師專區</h3>
             <ul class="space-y-3">
-                <li><a href="#">講師登入</a></li>
+                <li><a href="/teacher/admin/login">講師登入</a></li>
                 <li><a href="#">合作條款</a></li>
                 <li><a href="#">服務契約</a></li>
             </ul>

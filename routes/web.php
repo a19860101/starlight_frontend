@@ -130,3 +130,24 @@ Route::get('/carts',function(){
 Route::get('/checkout',function(){
     return view('checkout');
 });
+Route::get('/teacher/admin/login',function(){
+    return view('teacher.admin.login');
+});
+Route::get('/teacher/admin/',function(){
+    return view('teacher.admin.index');
+});
+Route::get('/teacher/admin/show',function(){
+    return view('teacher.admin.show');
+});
+Route::get('/teacher/admin/calendar',function(){
+    return view('teacher.admin.calendar');
+});
+Route::get('/teacher/admin/event',function(){
+    return view('teacher.admin.event');
+});
+Route::get('/teacher/admin/info',function(){
+    return view('teacher.admin.info');
+});
+Route::get('/teacher/admin/password',function(){
+    return view('teacher.admin.password');
+});
