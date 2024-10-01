@@ -151,3 +151,7 @@ Route::get('/teacher/admin/info',function(){
 Route::get('/teacher/admin/password',function(){
     return view('teacher.admin.password');
 });
+
+Route::get('/search',function(){
+    return view('search');
+});
